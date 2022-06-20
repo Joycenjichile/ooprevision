@@ -1,0 +1,44 @@
+
+list=(1,2,3,4)
+for y in list:
+   print(y**2)
+# write a function that return true if a year is leap or false  
+
+def leap_cheeker(year):
+   if year%4==0:
+      print(True)
+   elif year%100!=0:
+      print(False)
+leap_cheeker(2008)
+
+# change a list to a set
+list=[1,2,3,4,5,6]
+y=set(list)
+print(y)
+
+
+for num in range(0,20):
+   if num%2==0:
+      print("Fizz")
+   elif num%3==0:
+      print("Buzz") 
+   else:
+      print("FizzBuzz")  
+
+def even_numbers(num):
+   i=1
+   while i<50:
+      i+=1
+   if i%2!=0:
+      
+       print(i) 
+even_numbers()
+
+# multiple of 5
+
+x=[1,2,3,4,5]
+y=[y*5 for y in x]
+print(y)
+
+
+    

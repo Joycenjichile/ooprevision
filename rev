@@ -1,0 +1,58 @@
+# import numbers
+# from unicodedata import name
+# from requests import delete
+
+
+a=10  
+b="Hi Python"  
+c = 10.5  
+print(type(a))  
+print(type(b))  
+print(type(c))  
+
+
+c = 1+3j  
+print("The type of c", type(c))  
+print(" c is a complex number", isinstance(1+3j,complex))  
+
+list1  = [1, "hi", "Python", 2]   
+print(type(list1)) 
+print (list1)  
+print (list1[3:])  
+print (list1[0:2]) 
+print (list1 + list1) 
+print (list1 * 3)  
+
+
+#   delete even numbers
+x=[5,3,7,8,20,15,2,6,10,1]
+for num in x:
+     if num%2==0:
+         x.remove(num)
+         print(x)
+
+for i in range(len(x)-1,-1,-1):
+     if x[i]%2==0:
+         del x[i]
+         print(x)
+
+
+
+
+
+x={name:"joy",age:20,country:"kenya"}
+y=dict.keys()
+if name in y:
+     print(true)
+
+x={"Dree":26,"Effe":56,"Kimaa":60}
+w=x.keys()
+for num in w:
+     if 56 in w:
+         print("true")
+
+List = [1, 2, 7, 5]  
+print(list(reversed(List)))  
+list=[1,2,3,4,5] ;print(list[0],list[-1])
+
+
